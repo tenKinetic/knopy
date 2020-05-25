@@ -1,0 +1,16 @@
+{
+  "name": "knopy",
+  "version": "1.0.0",
+  "description": "With the clipboard populated with an image, such as a screenshot, ./run.sh writes any text found to the console and adds it to the clipboard.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tenKinetic",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^13.13.1",
+    "clipboardy": "^2.3.0",
+    "tesseract.js": "^2.1.1"
+  }
+}
